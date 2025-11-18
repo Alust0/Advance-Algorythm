@@ -53,7 +53,7 @@ class HashTableArray:   # separate chaining class
         for i, bucket in enumerate(self.table):
             print(f'{i}: ', end='')
             for entry in bucket:
-                print(f'[{entry.key}, {entry.value}]', end=' ')
+                print(f'\n[{entry.key}, {entry.value}]', end=' ')
             print()
 
 
